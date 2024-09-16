@@ -1,0 +1,31 @@
+.main-heading {
+  font-family: "Roboto";
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  width: 150px;
+  height: 25px;
+  border-radius: 10px;
+  border-width: 0px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.error-msg {
+  font-family: "Roboto";
+  color: red;
+}
